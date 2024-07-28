@@ -387,7 +387,10 @@ input[type="checkbox"] {
   opacity: 0;
   pointer-events: none;
   transition: all 0.3s;
+  overflow-y: auto;
 }
+
+
 .modal-section {
   display: flex;
   flex-direction: column;
@@ -476,7 +479,7 @@ input[type="checkbox"] {
   overflow-y: hidden;
   height: auto;
   width: 85%;
-  top: 50%;
+  top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
   border-radius: 15px;
